@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Fanta Sacco Olimpiadi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="registrazione">
+        <h1>Registrazione Utente</h1>
+        <form id="registrationForm">
+            <input type="text" id="nome" placeholder="Nome" required>
+            <input type="text" id="cognome" placeholder="Cognome" required>
+            <button type="submit">Registrati</button>
+        </form>
+    </div>
+
+    <div id="creaLega">
+        <h2>Crea una Lega</h2>
+        <form id="legaForm">
+            <input type="text" id="nomeLega" placeholder="Nome Lega" required>
+            <button type="submit">Crea</button>
+        </form>
+        <ul id="listaLeghe"></ul>
+    </div>
+
+    <div>
+        <h2>Classifica Atleti</h2>
+        <ul id="listaAtleti"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
